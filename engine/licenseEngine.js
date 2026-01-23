@@ -1,9 +1,14 @@
-// Internal URL for license data
 const encoded = "aHR0cHM6Ly9naXN0LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lcmlja291YXNzaS9lNmJkYjBjNDk2NTdiZDczNjU5YzQ2YjYwMjU3MzMzMS9yYXcvMmNiYjY1MDRiYTQyMDZjY2RkYTQ2MTJkZmNmOGY1NzI2OTlmNWUxOC95dHViZXN0YXRzLmRhdGEuanNvbg==";
 const licenseJsonUrl = atob(encoded);
 
+
 async function validateLicense(userLicenseKey) {
   const currentDomain = window.location.hostname;
+
+  // Detect PWA / standalone mode
+  const isPWA =
+    window.matchMedia("(display-mode: standalone)").matches ||
+    window.navigator.standalone === true;
 
   // Allow development environments
   const devDomains = ["localhost", "127.0.0.1"];
@@ -31,8 +36,8 @@ async function validateLicense(userLicenseKey) {
       return;
     }
 
-    // Domain check (skip in development)
-    if (!isDev && !license.domains.includes(currentDomain)) {
+    // Domain check (skip in development or PWA mode)
+    if (!isDev && !isPWA && !license.domains.includes(currentDomain)) {
       localStorage.removeItem("licenseValidated");
       window.location.href = "domain.html";
       return;
@@ -61,8 +66,8 @@ async function validateLicense(userLicenseKey) {
       return;
     }
 
-    // Multi-domain soft check (skip in development)
-    if (!isDev && license.domains.length > license.maxDomains) {
+    // Multi-domain soft check (skip in development or PWA mode)
+    if (!isDev && !isPWA && license.domains.length > license.maxDomains) {
       localStorage.removeItem("licenseValidated");
       window.location.href = "invalid.html";
       return;
