@@ -238,4 +238,12 @@ footer a {
   text-align: center;
 }
 
+.table-container {
+  overflow-x: auto;
+  width: 100%; /* ensures container uses available width */
+}
 
+table {
+  width: 100%;
+  border-collapse: collapse; /* Optional: for cleaner borders */
+}
