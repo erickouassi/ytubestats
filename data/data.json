@@ -2,7 +2,7 @@
   "licenses": [
     {
       "key": "XP-123-ABC",
-      "domains": ["example.com", "sub.example.com"],
+      "domains": ["github.com", "erickouassi.github.io"],
       "expires": "2026-12-31",
       "type": "multi-site",
       "maxDomains": 3,
