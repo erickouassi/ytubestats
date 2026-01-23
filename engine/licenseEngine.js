@@ -1,5 +1,6 @@
 // Internal URL for license data
-const licenseJsonUrl = "https://gist.githubusercontent.com/erickouassi/e6bdb0c49657bd73659c46b602573331/raw/2cbb6504ba4206ccdda4612dfcf8f572699f5e18/ytubestats.data.json";
+const encoded = "aHR0cHM6Ly9naXN0LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lcmlja291YXNzaS9lNmJkYjBjNDk2NTdiZDczNjU5YzQ2YjYwMjU3MzMzMS9yYXcvMmNiYjY1MDRiYTQyMDZjY2RkYTQ2MTJkZmNmOGY1NzI2OTlmNWUxOC95dHViZXN0YXRzLmRhdGEuanNvbg==";
+const licenseJsonUrl = atob(encoded);
 
 async function validateLicense(userLicenseKey) {
   const currentDomain = window.location.hostname;
