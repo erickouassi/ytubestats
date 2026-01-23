@@ -546,7 +546,13 @@ function ySGcZs() {
 })();
   </script>
 
-
+  <script>
+    // Prevent direct access
+    if (localStorage.getItem("licenseValidated") !== "true") {
+      window.location.href = "invalid.html";
+    }
+  </script>
 
 </body>
 </html>
+
