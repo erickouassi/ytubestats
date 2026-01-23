@@ -4,286 +4,288 @@
     "value": 50,
     "label": "50 Subs 🌱",
     "reward": "First real community forming",
-    "message": "A small but faithful beginning — every seed matters in God’s hands."
+    "message": "Signal detected. Initial network established."
   },
   {
     "type": "subs",
     "value": 100,
     "label": "100 Subs 🔹",
     "reward": "Custom URL eligibility + strong start",
-    "message": "A growing fellowship — God is expanding your reach with purpose."
+    "message": "User base stabilizing. Growth pattern confirmed."
   },
   {
     "type": "subs",
     "value": 500,
     "label": "500 Subs 🔥",
     "reward": "Growing loyalty & better algorithm push",
-    "message": "Your light is shining brighter — keep stewarding the gift He gave you."
+    "message": "Engagement bandwidth increasing."
   },
   {
     "type": "subs",
     "value": 1000,
     "label": "1K Subs ⭐",
     "reward": "Monetization eligibility (YPP) + Super Chat",
-    "message": "A thousand souls connected — God is opening new doors for your calling."
+    "message": "System upgrade unlocked. New capabilities online."
   },
   {
     "type": "subs",
     "value": 5000,
     "label": "5K Subs 🚀",
     "reward": "Stronger discoverability + brand interest",
-    "message": "Your voice is lifting others — keep building with grace and excellence."
+    "message": "Network expansion accelerating."
   },
   {
     "type": "subs",
     "value": 10000,
     "label": "10K Subs 🏆",
     "reward": "Creator Academy access + merch shelf options",
-    "message": "Ten thousand reached — your ministry through media is bearing fruit."
+    "message": "User cluster density increasing."
   },
   {
     "type": "subs",
     "value": 100000,
     "label": "100K Subs 🥈",
     "reward": "Silver Play Button",
-    "message": "A mighty milestone — God is multiplying your impact beyond expectation."
+    "message": "High‑volume channel detected. System performance elevated."
   },
   {
     "type": "subs",
     "value": 1000000,
     "label": "1M Subs 🥇",
     "reward": "Gold Play Button",
-    "message": "A million hearts touched — your content is becoming a beacon of hope."
+    "message": "Major network milestone achieved."
   },
   {
     "type": "subs",
     "value": 10000000,
     "label": "10M Subs 💎",
     "reward": "Diamond Play Button",
-    "message": "A global ministry moment — your voice is reaching nations."
+    "message": "Global‑scale distribution confirmed."
   },
   {
     "type": "subs",
     "value": 50000000,
     "label": "50M Subs 🔮",
     "reward": "Custom Play Button (special cases)",
-    "message": "Your influence spans the world — keep pointing hearts toward the Light."
+    "message": "High‑impact creator detected. Influence bandwidth extended."
   },
   {
     "type": "subs",
     "value": 100000000,
     "label": "100M Subs ❤️‍🔥",
     "reward": "Red Diamond Play Button",
-    "message": "A historic milestone — may your platform continue glorifying God."
+    "message": "Ultra‑rare milestone reached. System status: exceptional."
   },
+
   {
     "type": "views",
     "value": 10000,
     "label": "10K Views 👀",
     "reward": "Early audience traction",
-    "message": "Your message is beginning to spread — keep sowing faithfully."
+    "message": "Viewstream activated."
   },
   {
     "type": "views",
     "value": 50000,
     "label": "50K Views 🎯",
     "reward": "Solid engagement building",
-    "message": "More eyes, more hearts — God is guiding your growth."
+    "message": "Visibility range expanding."
   },
   {
     "type": "views",
     "value": 100000,
     "label": "100K Views 💡",
     "reward": "High visibility unlocked",
-    "message": "Your content is shining — a light set on a hill."
+    "message": "Content signal strengthening."
   },
   {
     "type": "views",
     "value": 250000,
     "label": "250K Views ⚡",
     "reward": "Quarter-million reach",
-    "message": "A quarter million reached — your work is touching lives."
+    "message": "Data flow increasing steadily."
   },
   {
     "type": "views",
     "value": 500000,
     "label": "500K Views 🔥",
     "reward": "Half-million milestone",
-    "message": "Half a million moments of impact — keep walking in purpose."
+    "message": "High‑traffic threshold reached."
   },
   {
     "type": "views",
     "value": 1000000,
     "label": "1M Views 🌟",
     "reward": "Major creator milestone",
-    "message": "A million views — God is using your creativity for good."
+    "message": "Viewstream exceeds one million units."
   },
   {
     "type": "views",
     "value": 3000000,
     "label": "3M Views ✨",
     "reward": "Multi-million impact",
-    "message": "Millions reached — your voice is becoming a ministry."
+    "message": "Content distribution scaling efficiently."
   },
   {
     "type": "views",
     "value": 5000000,
     "label": "5M Views 🚀",
     "reward": "Breakout creator status",
-    "message": "Your reach is expanding — keep creating with faith and excellence."
+    "message": "High‑velocity growth detected."
   },
   {
     "type": "views",
     "value": 10000000,
     "label": "10M Views 💥",
     "reward": "Top-tier visibility",
-    "message": "Ten million moments of encouragement — God is moving."
+    "message": "Viewstream enters large‑scale territory."
   },
   {
     "type": "views",
     "value": 50000000,
     "label": "50M Views 🧨",
     "reward": "Massive global reach",
-    "message": "Your content is crossing borders — a global testimony in motion."
+    "message": "Content signal now globally distributed."
   },
   {
     "type": "views",
     "value": 100000000,
     "label": "100M Views 🏆",
     "reward": "Elite creator tier",
-    "message": "A hundred million views — your work is inspiring countless hearts."
+    "message": "High‑impact visibility confirmed."
   },
   {
     "type": "views",
     "value": 500000000,
     "label": "500M Views 👑",
     "reward": "Legendary reach",
-    "message": "Half a billion views — God is multiplying your influence."
+    "message": "Half‑billion viewstream achieved."
   },
   {
     "type": "views",
     "value": 1000000000,
     "label": "1B Views 🔱",
     "reward": "Billion-view creator",
-    "message": "A billion views — may every moment point back to His glory."
+    "message": "System milestone: one billion views processed."
   },
+
   {
     "type": "likes",
     "value": 100,
     "label": "100 Likes 👍",
     "reward": "Early engagement",
-    "message": "Your community is responding — encouragement is taking root."
+    "message": "Initial feedback loop online."
   },
   {
     "type": "likes",
     "value": 500,
     "label": "500 Likes 🔥",
     "reward": "Strong engagement",
-    "message": "Hearts are connecting — keep sharing truth with love."
+    "message": "Positive signal increasing."
   },
   {
     "type": "likes",
     "value": 1000,
     "label": "1K Likes 💛",
     "reward": "High engagement",
-    "message": "A thousand expressions of support — God is with you in the work."
+    "message": "Engagement metrics rising."
   },
   {
     "type": "likes",
     "value": 5000,
     "label": "5K Likes 🚀",
     "reward": "Breakout engagement",
-    "message": "Your message is lifting others — keep shining His light."
+    "message": "Feedback loop strengthening."
   },
   {
     "type": "likes",
     "value": 10000,
     "label": "10K Likes 🌟",
     "reward": "Top creator engagement",
-    "message": "Ten thousand affirmations — your content is blessing many."
+    "message": "High‑volume interaction detected."
   },
   {
     "type": "likes",
     "value": 50000,
     "label": "50K Likes 🧨",
     "reward": "Massive engagement",
-    "message": "Your community is growing in unity and joy."
+    "message": "Engagement bandwidth expanded."
   },
   {
     "type": "likes",
     "value": 100000,
     "label": "100K Likes 🏆",
     "reward": "Elite engagement tier",
-    "message": "A hundred thousand moments of encouragement — keep building faithfully."
+    "message": "Strong interaction density achieved."
   },
   {
     "type": "likes",
     "value": 250000,
     "label": "250K Likes ⚡",
     "reward": "Quarter-million engagement",
-    "message": "Your content is resonating deeply — God is using your voice."
+    "message": "High‑signal response confirmed."
   },
   {
     "type": "likes",
     "value": 500000,
     "label": "500K Likes 🔥",
     "reward": "Half-million love",
-    "message": "Half a million expressions of support — your impact is real."
+    "message": "Engagement metrics surpass key threshold."
   },
   {
     "type": "likes",
     "value": 1000000,
     "label": "1M Likes 🌟",
     "reward": "Million-like milestone",
-    "message": "A million affirmations — keep creating for His glory."
+    "message": "One million interactions processed."
   },
   {
     "type": "likes",
     "value": 5000000,
     "label": "5M Likes 🚀",
     "reward": "Multi-million engagement",
-    "message": "Millions encouraged — your work is becoming a blessing worldwide."
+    "message": "High‑density engagement cluster detected."
   },
   {
     "type": "likes",
     "value": 10000000,
     "label": "10M Likes 💥",
     "reward": "Ten-million tier",
-    "message": "Ten million signs of support — God is enlarging your territory."
+    "message": "Engagement enters large‑scale mode."
   },
   {
     "type": "likes",
     "value": 50000000,
     "label": "50M Likes 🧨",
     "reward": "Massive global love",
-    "message": "Your content is touching nations — keep walking in purpose."
+    "message": "Feedback loop now global."
   },
   {
     "type": "likes",
     "value": 100000000,
     "label": "100M Likes 🏆",
     "reward": "Hundred-million legend",
-    "message": "A hundred million moments of encouragement — a global ministry in motion."
+    "message": "High‑impact interaction milestone reached."
   },
   {
     "type": "likes",
     "value": 250000000,
     "label": "250M Likes 🔮",
     "reward": "Global phenomenon",
-    "message": "A quarter billion likes — your work is uplifting the world."
+    "message": "Engagement metrics indicate worldwide resonance."
   },
   {
     "type": "likes",
     "value": 500000000,
     "label": "500M Likes 👑",
     "reward": "Half-billion love",
-    "message": "Half a billion expressions of support — God is multiplying your influence."
+    "message": "Half‑billion interactions logged."
   },
   {
     "type": "likes",
     "value": 1000000000,
     "label": "1B Likes 🔱",
     "reward": "Billion-like creator",
-    "message": "A billion likes — may every bit of this journey glorify Him."
+    "message": "System milestone: one billion interactions recorded."
   }
 ]
