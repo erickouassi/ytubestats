@@ -1,0 +1,289 @@
+[
+  {
+    "type": "subs",
+    "value": 50,
+    "label": "50 Subs 🌱",
+    "reward": "First real community forming",
+    "message": "You're no longer talking to yourself — people are showing up!"
+  },
+  {
+    "type": "subs",
+    "value": 100,
+    "label": "100 Subs 🔹",
+    "reward": "Custom URL eligibility + strong start",
+    "message": "A solid foundation — momentum is building!"
+  },
+  {
+    "type": "subs",
+    "value": 500,
+    "label": "500 Subs 🔥",
+    "reward": "Growing loyalty & better algorithm push",
+    "message": "Halfway to monetization — your passion is contagious!"
+  },
+  {
+    "type": "subs",
+    "value": 1000,
+    "label": "1K Subs ⭐",
+    "reward": "Monetization eligibility (YPP) + Super Chat",
+    "message": "You’re officially a monetizable creator — huge win!"
+  },
+  {
+    "type": "subs",
+    "value": 5000,
+    "label": "5K Subs 🚀",
+    "reward": "Stronger discoverability + brand interest",
+    "message": "You're in the top tier of growing channels — keep soaring!"
+  },
+  {
+    "type": "subs",
+    "value": 10000,
+    "label": "10K Subs 🏆",
+    "reward": "Creator Academy access + merch shelf options",
+    "message": "Double-digit thousands — your voice is reaching far!"
+  },
+  {
+    "type": "subs",
+    "value": 100000,
+    "label": "100K Subs 🥈",
+    "reward": "Silver Play Button",
+    "message": "A massive milestone — you’re becoming a recognized force!"
+  },
+  {
+    "type": "subs",
+    "value": 1000000,
+    "label": "1M Subs 🥇",
+    "reward": "Gold Play Button",
+    "message": "A million hearts connected — truly legendary!"
+  },
+  {
+    "type": "subs",
+    "value": 10000000,
+    "label": "10M Subs 💎",
+    "reward": "Diamond Play Button",
+    "message": "Elite creator status — you're in rare company!"
+  },
+  {
+    "type": "subs",
+    "value": 50000000,
+    "label": "50M Subs 🔮",
+    "reward": "Custom Play Button (special cases)",
+    "message": "Global influence — your impact is undeniable!"
+  },
+  {
+    "type": "subs",
+    "value": 100000000,
+    "label": "100M Subs ❤️‍🔥",
+    "reward": "Red Diamond Play Button",
+    "message": "One of the very few legends — history in the making!"
+  },
+  {
+    "type": "views",
+    "value": 10000,
+    "label": "10K Views 👀",
+    "reward": "Early audience traction",
+    "message": "Your content is spreading — great first step!"
+  },
+  {
+    "type": "views",
+    "value": 50000,
+    "label": "50K Views 🎯",
+    "reward": "Solid engagement building",
+    "message": "People are watching and sharing — keep it rolling!"
+  },
+  {
+    "type": "views",
+    "value": 100000,
+    "label": "100K Views 💡",
+    "reward": "High visibility unlocked",
+    "message": "Your videos are gaining real momentum!"
+  },
+  {
+    "type": "views",
+    "value": 250000,
+    "label": "250K Views ⚡",
+    "reward": "Quarter-million reach",
+    "message": "A quarter million eyes on your work — impressive!"
+  },
+  {
+    "type": "views",
+    "value": 500000,
+    "label": "500K Views 🔥",
+    "reward": "Half-million milestone",
+    "message": "Half a million views — your story is resonating!"
+  },
+  {
+    "type": "views",
+    "value": 1000000,
+    "label": "1M Views 🌟",
+    "reward": "Major creator milestone",
+    "message": "One million views — your voice is powerful!"
+  },
+  {
+    "type": "views",
+    "value": 3000000,
+    "label": "3M Views ✨",
+    "reward": "Multi-million impact",
+    "message": "Three million views — you're building something big!"
+  },
+  {
+    "type": "views",
+    "value": 5000000,
+    "label": "5M Views 🚀",
+    "reward": "Breakout creator status",
+    "message": "Explosive reach — the sky's the limit!"
+  },
+  {
+    "type": "views",
+    "value": 10000000,
+    "label": "10M Views 💥",
+    "reward": "Top-tier visibility",
+    "message": "Ten million strong — elite territory!"
+  },
+  {
+    "type": "views",
+    "value": 50000000,
+    "label": "50M Views 🧨",
+    "reward": "Massive global reach",
+    "message": "Fifty million views — your impact is huge!"
+  },
+  {
+    "type": "views",
+    "value": 100000000,
+    "label": "100M Views 🏆",
+    "reward": "Elite creator tier",
+    "message": "A hundred million — you're a true powerhouse!"
+  },
+  {
+    "type": "views",
+    "value": 500000000,
+    "label": "500M Views 👑",
+    "reward": "Legendary reach",
+    "message": "Half a billion — legendary status achieved!"
+  },
+  {
+    "type": "views",
+    "value": 1000000000,
+    "label": "1B Views 🔱",
+    "reward": "Billion-view creator",
+    "message": "One billion views — you've reached the summit!"
+  },
+  {
+    "type": "likes",
+    "value": 100,
+    "label": "100 Likes 👍",
+    "reward": "Early engagement",
+    "message": "Your audience is starting to respond!"
+  },
+  {
+    "type": "likes",
+    "value": 500,
+    "label": "500 Likes 🔥",
+    "reward": "Strong engagement",
+    "message": "People are loving your content!"
+  },
+  {
+    "type": "likes",
+    "value": 1000,
+    "label": "1K Likes 💛",
+    "reward": "High engagement",
+    "message": "A thousand likes — amazing support!"
+  },
+  {
+    "type": "likes",
+    "value": 5000,
+    "label": "5K Likes 🚀",
+    "reward": "Breakout engagement",
+    "message": "Your content is taking off!"
+  },
+  {
+    "type": "likes",
+    "value": 10000,
+    "label": "10K Likes 🌟",
+    "reward": "Top creator engagement",
+    "message": "Ten thousand likes — incredible momentum!"
+  },
+  {
+    "type": "likes",
+    "value": 50000,
+    "label": "50K Likes 🧨",
+    "reward": "Massive engagement",
+    "message": "Your audience is truly invested!"
+  },
+  {
+    "type": "likes",
+    "value": 100000,
+    "label": "100K Likes 🏆",
+    "reward": "Elite engagement tier",
+    "message": "A hundred thousand likes — legendary!"
+  },
+  {
+    "type": "likes",
+    "value": 250000,
+    "label": "250K Likes ⚡",
+    "reward": "Quarter-million engagement",
+    "message": "A quarter million likes — your content truly resonates!"
+  },
+  {
+    "type": "likes",
+    "value": 500000,
+    "label": "500K Likes 🔥",
+    "reward": "Half-million love",
+    "message": "Half a million likes — you're building a real movement!"
+  },
+  {
+    "type": "likes",
+    "value": 1000000,
+    "label": "1M Likes 🌟",
+    "reward": "Million-like milestone",
+    "message": "One million likes — your voice is incredibly powerful!"
+  },
+  {
+    "type": "likes",
+    "value": 5000000,
+    "label": "5M Likes 🚀",
+    "reward": "Multi-million engagement",
+    "message": "Five million likes — explosive community support!"
+  },
+  {
+    "type": "likes",
+    "value": 10000000,
+    "label": "10M Likes 💥",
+    "reward": "Ten-million tier",
+    "message": "Ten million likes — you're in elite creator territory!"
+  },
+  {
+    "type": "likes",
+    "value": 50000000,
+    "label": "50M Likes 🧨",
+    "reward": "Massive global love",
+    "message": "Fifty million likes — your impact is undeniable!"
+  },
+  {
+    "type": "likes",
+    "value": 100000000,
+    "label": "100M Likes 🏆",
+    "reward": "Hundred-million legend",
+    "message": "A hundred million likes — truly legendary status!"
+  },
+  {
+    "type": "likes",
+    "value": 250000000,
+    "label": "250M Likes 🔮",
+    "reward": "Global phenomenon",
+    "message": "Two hundred fifty million likes — your content has become a worldwide phenomenon!"
+  },
+  {
+    "type": "likes",
+    "value": 500000000,
+    "label": "500M Likes 👑",
+    "reward": "Half-billion love",
+    "message": "Half a billion likes — the love and support you've built is truly extraordinary!"
+  },
+  {
+    "type": "likes",
+    "value": 1000000000,
+    "label": "1B Likes 🔱",
+    "reward": "Billion-like creator",
+    "message": "One billion likes — you've reached the absolute pinnacle of creator achievement!"
+  }
+]
