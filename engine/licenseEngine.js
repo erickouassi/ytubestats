@@ -1,5 +1,5 @@
 // Internal URL for license data
-const licenseJsonUrl = "https://raw.githubusercontent.com/erickouassi/ytubestats/refs/heads/main/data/data.json";
+const licenseJsonUrl = "https://gist.githubusercontent.com/erickouassi/e6bdb0c49657bd73659c46b602573331/raw/2cbb6504ba4206ccdda4612dfcf8f572699f5e18/ytubestats.data.json";
 
 async function validateLicense(userLicenseKey) {
   const currentDomain = window.location.hostname;
