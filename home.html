@@ -106,9 +106,6 @@
 
 <script type="module" src="js/main.js"></script>
 <!-- SHARE LINK SCRIPT --> 
- <!--<script> document.getElementById("year").textContent = new Date().getFullYear(); 
- document.getElementById("shareLink").addEventListener("click", async (e) => { e.preventDefault(); const shareData = { title: "XP-Devotion Dashboard", text: "Check out this dashboard and subscribe!", url: window.location.href }; if (navigator.share) { try { await navigator.share(shareData); } catch {} } else { navigator.clipboard.writeText(shareData.url); document.querySelector(".share-result").textContent = "Link copied!"; setTimeout(() => { document.querySelector(".share-result").textContent = ""; }, 2000); } }); 
-</script>-->
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
 document.getElementById("shareLink").addEventListener("click", async (e) => {
@@ -140,5 +137,6 @@ document.getElementById("shareLink").addEventListener("click", async (e) => {
 
 </body>
 </html>
+
 
 
