@@ -1,7 +1,7 @@
 # ytubestats
 Helps in seeing your channel's stats
 
-# Privacy & Configuration Update
+### Privacy & Configuration Update
 
 Some files in this project **have already been obfuscated** to protect sensitive data.
 
