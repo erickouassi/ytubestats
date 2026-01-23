@@ -50,7 +50,7 @@ async function validateLicense(userLicenseKey) {
 
         if (today <= graceLimit) {
           localStorage.setItem("licenseValidated", "true");
-          window.location.href = "success.html";
+          window.location.href = "home.html";
           return;
         }
       }
@@ -69,7 +69,7 @@ async function validateLicense(userLicenseKey) {
 
     // SUCCESS — persistent validation
     localStorage.setItem("licenseValidated", "true");
-    window.location.href = "success.html";
+    window.location.href = "home.html";
 
   } catch (err) {
     localStorage.removeItem("licenseValidated");
