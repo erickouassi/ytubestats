@@ -1,4 +1,4 @@
-// badges-data.js  (cleaned up version)
+// badges-data.js 
 
 let cachedBadges = null;
 
@@ -9,7 +9,7 @@ export async function getAllBadges() {
 
   const path = './js/badges.json';
 
-  console.log(`[badges-data] Fetching badges from: ${path}`);
+  //console.log(`[badges-data] Fetching badges from: ${path}`);
 
   try {
     const response = await fetch(path);
@@ -20,10 +20,11 @@ export async function getAllBadges() {
     }
 
     cachedBadges = await response.json();
-    console.log("[badges-data] Loaded", cachedBadges.length, "badges");
+    //console.log("[badges-data] Loaded", cachedBadges.length, "badges");
     return cachedBadges;
   } catch (err) {
     console.error("[badges-data] Failed to load badges:", err);
     return [];
   }
+
 }
