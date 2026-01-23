@@ -1,0 +1,94 @@
+{
+  "licenses": [
+    {
+      "key": "XP-123-ABC",
+      "domains": ["example.com", "sub.example.com"],
+      "expires": "2026-12-31",
+      "type": "multi-site",
+      "maxDomains": 3,
+      "graceDays": 7,
+      "activated": "2026-01-20"
+    },
+    {
+      "key": "XP-456-DEF",
+      "domains": ["another-site.com"],
+      "expires": "2027-03-15",
+      "type": "single-site",
+      "maxDomains": 1,
+      "graceDays": 0,
+      "activated": "2026-01-10"
+    },
+    {
+      "key": "XP-789-GHI",
+      "domains": ["ministryhub.org", "pray.ministryhub.org"],
+      "expires": "2028-05-01",
+      "type": "multi-site",
+      "maxDomains": 5,
+      "graceDays": 14,
+      "activated": "2026-02-01"
+    },
+    {
+      "key": "XP-321-JKL",
+      "domains": ["familychurch.net"],
+      "expires": "never",
+      "type": "lifetime",
+      "maxDomains": 1,
+      "graceDays": 0,
+      "activated": "2025-11-12"
+    },
+    {
+      "key": "XP-654-MNO",
+      "domains": ["youthfire.io", "camp.youthfire.io"],
+      "expires": "2027-09-30",
+      "type": "multi-site",
+      "maxDomains": 2,
+      "graceDays": 5,
+      "activated": "2026-01-05"
+    },
+    {
+      "key": "XP-987-PQR",
+      "domains": ["worshipconnect.app"],
+      "expires": "2026-04-10",
+      "type": "single-site",
+      "maxDomains": 1,
+      "graceDays": 10,
+      "activated": "2025-12-20"
+    },
+    {
+      "key": "XP-159-STU",
+      "domains": ["missionsglobal.org", "training.missionsglobal.org", "portal.missionsglobal.org"],
+      "expires": "2029-01-01",
+      "type": "enterprise",
+      "maxDomains": 10,
+      "graceDays": 30,
+      "activated": "2026-01-01"
+    },
+    {
+      "key": "XP-753-VWX",
+      "domains": ["devotional365.com"],
+      "expires": "2026-08-15",
+      "type": "single-site",
+      "maxDomains": 1,
+      "graceDays": 3,
+      "activated": "2026-01-18"
+    },
+    {
+      "key": "XP-852-YZA",
+      "domains": ["parishconnect.net", "events.parishconnect.net"],
+      "expires": "2027-12-31",
+      "type": "multi-site",
+      "maxDomains": 4,
+      "graceDays": 10,
+      "activated": "2026-01-03"
+    },
+    {
+      "key": "XP-444-BETA",
+      "domains": ["testdomain.com"],
+      "expires": "2026-02-28",
+      "type": "single-site",
+      "maxDomains": 1,
+      "graceDays": 0,
+      "activated": "2026-01-19"
+    }
+  ]
+}
