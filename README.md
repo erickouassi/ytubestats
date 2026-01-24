@@ -46,6 +46,13 @@ At this stage, you only need to update the following configuration files:
 
 More files **can be obfuscated later** if needed.
 
+```js
+/*  
+You'll need a valid userLicenseKey before using this project.  
+Grab one at https://erickouassi.gumroad.com/l/ytubestats  
+*/
+
+
 ---
 
 ## 🔑 Requirements
