@@ -56,62 +56,66 @@ https://erickouassi.gumroad.com/l/ytubestats
 
 ---
 
-## 🔑 Requirements
+## 🛠️ Installation & Setup
 
-### 1. Get Your YouTube Channel ID  
-Find your channel ID here:  
-https://www.youtube.com/account_advanced
+Follow these steps to properly activate and run the project:
 
-### 2. Generate Your YouTube API Key  
-This project requires a **YouTube Data API v3** key.
-
-Follow these steps:
-
-1. Sign in with your Google account.  
-2. Create a new project:  
-   https://console.cloud.google.com/projectcreate  
-3. Enable the YouTube Data API v3:  
-   https://console.cloud.google.com/marketplace/product/google/youtube.googleapis.com  
-4. Click **ENABLE**.  
-5. Click **CREATE CREDENTIALS**.  
-6. Select **Public data**.  
-7. Click **NEXT**.  
-8. Copy the generated **API Key**.
+### **1. Purchase Your License Key**
+Get your userLicenseKey here:  
+https://erickouassi.gumroad.com/l/ytubestats
 
 ---
 
-## 🖥 Tech Stack
+### **2. Send Your Domain or Repository Name**
+After purchasing, email me:
 
-- **HTML**  
-- **CSS**  
-- **JavaScript**  
-- **JSON**
+- The **domain name** where the project will be hosted  
+  **OR**  
+- The **GitHub repository name** (if hosted on GitHub Pages)
 
----
+Along with:
 
-## 🔗 Demo / Reference Links
+- Your **userLicenseKey**
 
-These working examples use the same codebase.  
-If they work, your version should work as well:
-
-- URL1  
-- URL2  
-- URL3  
+This allows me to register and authorize your installation.
 
 ---
 
-## ❤️ Support the Project
-
-If this project helps you or inspires you, here are a few ways to support it:
-
-- Give proper credit if you use it in your own README.  
-- Star ⭐ and share the project.  
-- Suggest new features by opening an issue.  
-- Email me if you want to collaborate or request improvements 😎
+### **3. Wait for Activation**
+I will add your domain or repository to the license system.  
+Once activated, your license key becomes valid for your installation.
 
 ---
 
-## 🤝 Contributions Welcome
+### **4. Update Your Configuration Files**
+After activation, open the project and update **only these two files**:
 
-Contributions of all kinds are welcome — bug fixes, improvements, new features, or documentation updates.  
-Let’s build something great together.
+- `config/config.js`
+- `js/config.js`
+
+Insert your:
+
+- YouTube Channel ID  
+- YouTube API Key  
+- userLicenseKey  
+
+That’s all you need to configure.
+
+---
+
+### **5. Run or Deploy the App**
+
+#### **Option A — Open Locally**
+Simply open `index.html` in your browser.
+
+#### **Option B — Deploy on GitHub Pages (recommended for hosting)**
+
+1. Push your project to a GitHub repository.  
+2. Go to **Settings → Pages**.  
+3. Under **Build and deployment**, set:  
+   - **Source:** `Deploy from a branch`  
+   - **Branch:** `main` (or `master`)  
+   - **Folder:** `/root` (or `/docs` if your files are inside a docs folder)  
+4. Click **Save**.  
+5. GitHub will generate a public URL for your site, usually:  
+
