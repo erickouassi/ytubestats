@@ -1,0 +1,32 @@
+{
+    "name": "ytubestats",
+    "short_name": "ytubestats",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ff0000",
+    "scope": "/",
+    "orientation": "any",
+    "description": "A simple, real-time YouTube analytics dashboard that shows your subscribers, views, likes, and top videos in one clean, creator-friendly interface.",
+    "categories": ["Productivity", "Analytics", "YouTube", "Creator Tools"],
+    "icons": [
+        {
+            "src": "./img/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "./img/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "./img/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}

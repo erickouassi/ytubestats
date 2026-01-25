@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>XP-Devotion Dashboard</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ytubestats - Dashboard</title>
+  <meta name="description" content="A simple, real-time YouTube analytics dashboard that shows your subscribers, views, likes, and top videos in one clean, creator-friendly interface.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
 </head>
+
 <body>
 
 <div class="card">
@@ -55,7 +60,7 @@
 </div>
 
 <div class="card">
-  <h2>Top 5 Videos</h2>
+  <h2>Top 5 most‑viewed videos</h2>
   <div class="table-container">
   <table class="clean-table" id="top-table">
     <thead>
@@ -67,7 +72,7 @@
 </div>
 
 <div class="card">
-  <h2>Lowest 5 Videos</h2>
+  <h2>Bottom 5 least‑viewed videos</h2>
   <div class="table-container">
   <table class="clean-table" id="low-table">
     <thead>
@@ -133,6 +138,33 @@ document.getElementById("shareLink").addEventListener("click", async (e) => {
     if (localStorage.getItem("licenseValidated") !== "true") {
       window.location.href = "invalid.html";
     }
+  </script>
+   <!-- PWA Install Button Script -->
+  <script>
+    (function () {
+      let deferredPrompt;
+      const installBtn = document.getElementById('installBtn');
+
+      if (!installBtn || !('serviceWorker' in navigator)) return;
+
+      window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        installBtn.style.display = 'block';
+      });
+
+      installBtn.addEventListener('click', async () => {
+        if (!deferredPrompt) return;
+        installBtn.style.display = 'none';
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        deferredPrompt = null;
+      });
+
+      window.addEventListener('appinstalled', () => {
+        installBtn.style.display = 'none';
+      });
+    })();
   </script>
 
 </body>
