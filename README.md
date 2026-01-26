@@ -72,8 +72,10 @@ Follow these steps to properly activate and run the project:
 
 ### **1. Purchase Your License Key**
 Get your userLicenseKey here:  
-https://erickouassi.gumroad.com/l/ytubestats
 
+https://erickouassi.gumroad.com/l/pqnlck
+
+https://erickouassi.gumroad.com/l/ytubestats
 ---
 
 ### **2. Send Your Domain or Repository Name**
