@@ -52,9 +52,19 @@ More files **can be obfuscated later** if needed.
 
 You'll need a **valid userLicenseKey** before using this project.  
 Get your license key here:  
+
+https://erickouassi.gumroad.com/l/pqnlck
+
 https://erickouassi.gumroad.com/l/ytubestats
 
 ---
+
+| Plan            | Price       | Billing          | Description                                                                 | Benefits                                   |
+|-----------------|-------------|------------------|-----------------------------------------------------------------------------|---------------------------------------------|
+| **Monthly**     | $8          | per month        | A simple, reliable license for one primary domain.                          | Full feature access<br>Cancel anytime       |
+| **Yearly**      | $80         | per year         | A simple, reliable license for one primary domain.                          | Save (2 months free)<br>Full feature access<br>Best for ongoing use |
+| **Lifetime**    | $399.99     | one‑time payment | A permanent license with no expiration date.                                | No subscription<br>Lifetime license<br>Never expires |
+
 
 ## 🛠️ Installation & Setup
 
