@@ -7,7 +7,7 @@ This tool fetches data directly from the YouTube Data API and presents it in a c
 
 ## ❓ Why You Need This
 
-Managing a YouTube channel means keeping track of how your content performs — but YouTube Studio can feel overwhelming or slow to navigate. This tool gives you a **simple, focused dashboard** that highlights the stats that matter most.
+Managing a YouTube channel means keeping track of how your content performs — and even with YouTube Studio’s full feature set, it’s helpful to have a lightweight tool for quick checks. This tool gives you a simple, focused dashboard that highlights the stats that matter most.
 
 You’ll find it useful if you want to:
 
