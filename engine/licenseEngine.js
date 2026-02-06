@@ -1,6 +1,6 @@
-const encoded = "aHR0cHM6Ly9naXN0LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lcmlja291YXNzaS9lNmJkYjBjNDk2NTdiZDczNjU5YzQ2YjYwMjU3MzMzMS9yYXcvMmNiYjY1MDRiYTQyMDZjY2RkYTQ2MTJkZmNmOGY1NzI2OTlmNWUxOC95dHViZXN0YXRzLmRhdGEuanNvbg==";
-const licenseJsonUrl = atob(encoded);
-
+// Internal URL for license data
+const encoded = "aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2VyaWNrb3Vhc3NpL3l0dWJlc3RhdHMtdmVyaWZ5L2RhdGEuanNvbg==";
+const licenseJsonUrl = atob(encoded); 
 
 async function validateLicense(userLicenseKey) {
   const currentDomain = window.location.hostname;
