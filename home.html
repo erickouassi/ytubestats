@@ -87,6 +87,8 @@
   <button id="installBtn" class="share-btn" style="display:none; margin-top:15px;">
     Download App
   </button>
+  <!-- Valide badge license -->
+<div id="licenseBadge"></div>
 
 <!-- BADGE MODAL -->
 <div id="badge-modal" class="modal">
@@ -110,11 +112,31 @@
     <span class="share-result"></span>
   </p>
   <p>© <span id="year"></span> | Made with 🙏🏽 by 
-    <a href="https://erickouassi.com/" target="_blank">Eric</a>
+    <a href="https://erickouassi.com/" target="_blank">Eric</a> | Powered by <a href="https://github.com/erickouassi/ytubestats/" target="_blank">ytubestats</a>
   </p>
 </footer>
 
 <script type="module" src="js/main.js"></script>
+
+<script>
+  function loadScript(src) {
+  return new Promise(resolve => {
+    const s = document.createElement("script");
+    s.src = src;
+    s.defer = true;
+    s.onload = resolve;
+    document.body.appendChild(s);
+  });
+}
+
+(async () => {
+  await loadScript("/config/config.js");
+  await loadScript("/badge/badge.js");
+  await loadScript("/badge/license.js");
+  await loadScript("https://cdn.jsdelivr.net/gh/erickouassi/PWA-Install-Button-Script/PWA-Install-Button-Script.js");
+})();
+</script>
+
 <!-- SHARE LINK SCRIPT --> 
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
@@ -138,39 +160,14 @@ document.getElementById("shareLink").addEventListener("click", async (e) => {
     }
 });
 </script>
+
   <script>
     // Prevent direct access
     if (localStorage.getItem("licenseValidated") !== "true") {
       window.location.href = "invalid.html";
     }
   </script>
-   <!-- PWA Install Button Script -->
-  <script>
-    (function () {
-      let deferredPrompt;
-      const installBtn = document.getElementById('installBtn');
 
-      if (!installBtn || !('serviceWorker' in navigator)) return;
-
-      window.addEventListener('beforeinstallprompt', (e) => {
-        e.preventDefault();
-        deferredPrompt = e;
-        installBtn.style.display = 'block';
-      });
-
-      installBtn.addEventListener('click', async () => {
-        if (!deferredPrompt) return;
-        installBtn.style.display = 'none';
-        deferredPrompt.prompt();
-        const { outcome } = await deferredPrompt.userChoice;
-        deferredPrompt = null;
-      });
-
-      window.addEventListener('appinstalled', () => {
-        installBtn.style.display = 'none';
-      });
-    })();
-  </script>
 
 </body>
 </html>
